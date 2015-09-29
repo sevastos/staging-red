@@ -153,3 +153,57 @@ header {
 		bottom: -85px;
 	}
 }
+
+
+.app-hand-slide {
+    height: 100vh !important;
+}
+
+@media (min-width: 1267px) {
+	.hidden-xs.handapp {
+		position: absolute;
+	    bottom: 110px;
+	    left: 50%;
+	    margin-left: -560px;
+	}
+}
+
+
+
+
+
+
+
+
+
+.app-hand-slide-new {
+	position: relative;
+	height: 100vh;
+	max-height: 800px;
+}
+.hidden-xs.handapp {
+	bottom: -70px;
+}
+.app-hand-text {
+	position: absolute;
+    bottom: 15%;
+    right: 50%;
+    color: #fff;
+    font-weight: 100;
+    font-size: 32px;
+    margin-right: -250px;
+}
+
+.app-hand-text strong {
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
+.app-hand-desc {
+	color: #ffffff;
+    font-size: 65px;
+    font-weight: 300;
+}
