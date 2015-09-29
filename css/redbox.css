@@ -105,3 +105,14 @@ header {
     overflow: hidden;
     height: 100vh;
 }
+
+
+
+
+.slotholder {
+	position: relative;
+}
+.handapp {
+    position: absolute;
+    bottom: -90px;
+}
