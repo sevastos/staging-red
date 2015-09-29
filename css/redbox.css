@@ -30,7 +30,7 @@ section#about .about-item:hover i.fa {
 
 section#about .about-item i.fa {
     border: 2px solid #cd6666;
-    color: rgba(205, 102, 138, 1);
+    color: #cd6666;
 }
 
 section#about .about-item:hover h3 {
@@ -114,5 +114,42 @@ header {
 }
 .handapp {
     position: absolute;
-    bottom: -90px;
+    bottom: 180px;
+    left: 50%;
+    margin-left: -560px;
+
+}
+
+.tp-txt {
+	line-height: 64px;
+}
+
+
+.tp-banner-container {
+    position: relative;
+}
+
+.app-hand-slide {
+	position: relative;
+}
+
+.visible-xs.handapp {
+	position: absolute;
+    bottom: -95px;
+    left: 10%;
+    margin-left: 0;
+}
+
+.hidden-xs.handapp {
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	margin-left: -560px;
+}
+
+@media (max-width: 767px) {
+	.visible-xs.handapp {
+		left: 5%;
+		bottom: -85px;
+	}
 }
