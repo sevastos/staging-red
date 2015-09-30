@@ -144,7 +144,7 @@ header {
 	position: absolute;
 	bottom: -30px;
 	left: 50%;
-	margin-left: -560px;
+	margin-left: -590px;
 }
 
 @media (max-width: 767px) {
@@ -164,7 +164,7 @@ header {
 		position: absolute;
 	    bottom: 110px;
 	    left: 50%;
-	    margin-left: -560px;
+	    margin-left: -590px;
 	}
 }
 
@@ -182,16 +182,19 @@ header {
 	max-height: 800px;
 }
 .hidden-xs.handapp {
-	bottom: -70px;
+	bottom: 0px;
 }
 .app-hand-text {
 	position: absolute;
-    bottom: 15%;
+    bottom: 40%;
     right: 50%;
     color: #fff;
     font-weight: 100;
     font-size: 32px;
     margin-right: -250px;
+
+    bottom: 10%;
+    right: 42%;
 }
 
 .app-hand-text strong {
@@ -206,4 +209,16 @@ header {
 	color: #ffffff;
     font-size: 65px;
     font-weight: 300;
+}
+
+
+header .navbar-default {
+	padding-top: 20px;
+}
+
+@media (max-width: 1257px) {
+	.hidden-xs.handapp {
+	    bottom: -135px;
+	    transform: scale(0.55);
+	}
 }
