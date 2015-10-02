@@ -268,9 +268,29 @@ header .navbar-default {
     }
 
     .app-hand-text {
+        right: 35%;
         font-size: 25px;
         bottom: 30%;
         width: auto;
+    }
+}
+
+
+@media (min-width: 640px) {
+    header .navbar-default.scrolled .navbar-brand {
+        color: #933;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1257px) {
+    .hidden-xs.handapp {
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 850px) {
+    .hidden-xs.handapp {
+        bottom: 0px;
     }
 }
 
