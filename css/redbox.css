@@ -65,6 +65,14 @@ section#about .about-item i.fa {
 	padding: 32px;
 }
 
+section#demo {
+    background-color: #fff;
+}
+
+section#support {
+    background-color: #f6f6f6;
+}
+
 footer {
     background: linear-gradient(-45deg, rgba(110, 11, 11, 1) 0%, rgba(249, 148, 148, 1) 100%) repeat scroll 0% 0% transparent;
 }
