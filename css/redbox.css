@@ -38,6 +38,15 @@ section#about .about-item:hover h3 {
     color: #cd6666;
 }
 
+section#reviews {
+    color: #fff;
+}
+
+
+section#reviews h3 {
+    color: #fff;
+}
+
 section .section-heading .divider:after {
     background: none repeat scroll 0% 0% #cd6666;
 }
