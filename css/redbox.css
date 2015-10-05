@@ -229,6 +229,10 @@ header {
     font-weight: 300;
 }
 
+.media > .pull-left {
+    margin-right: 20px;
+}
+
 
 header .navbar-default {
 	padding-top: 20px;
