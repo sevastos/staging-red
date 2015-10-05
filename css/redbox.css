@@ -357,3 +357,16 @@ header .navbar-default {
         left: 38%;
     }
 }
+
+
+
+.icon-heading {
+    font-size: 26px;
+    line-height: 48px;
+    color: #cd6666;
+    margin-left: 8px;
+}
+
+form .input-group input.form-control.pull-left {
+    height: 47px;
+}
