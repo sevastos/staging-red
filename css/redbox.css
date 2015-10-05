@@ -311,3 +311,45 @@ header .navbar-default {
     }
 }
 
+
+
+
+/* iphone app screenshot */
+
+.iphone-ss {
+    position: absolute;
+    left: 50%;
+    margin-left: -192px;
+    top: 16%;
+}
+
+.iphone-app-screenshot img {
+    padding-left: 289px;
+    padding-right: 305px;
+    padding-top: 270px;
+    padding-bottom: 378px;
+}
+
+.iphone-app-screenshot {
+    background: transparent url('../img/rb/iphone-v1-gold.png') no-repeat left top;
+    transform: scale(0.25);
+    transform-origin: top left;
+    
+}
+
+
+@media (min-width: 768px) {
+    .iphone-ss {
+        left: 26%;
+    }
+}
+@media (min-width: 900px) {
+    .iphone-ss {
+        left: 35%;
+    }
+}
+@media (min-width: 980px) {
+    .iphone-ss {
+        left: 38%;
+    }
+}
