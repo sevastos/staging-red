@@ -338,7 +338,7 @@ header .navbar-default {
     background: transparent url('../img/rb/iphone-v1-silver.png') no-repeat left top;
     transform: scale(0.25);
     transform-origin: top left;
-    
+    display: inline-block;   
 }
 
 
@@ -369,4 +369,36 @@ header .navbar-default {
 
 form .input-group input.form-control.pull-left {
     height: 47px;
+}
+
+
+/* iphone features */
+.iphone-features {
+    transform: scale(0.21);
+        margin-left: 10%;
+}
+@media (min-width: 768px) {
+    .iphone-features {
+        margin-left: -45px;
+    }
+}
+@media (min-width: 900px) {
+    .iphone-features {
+        margin-left: -50px;
+    }
+}
+@media (min-width: 992px) {
+    .iphone-features {
+        margin-left: -15px;
+    }
+}
+@media (min-width: 1200px) {
+    .iphone-features {
+        margin-left: 25px;
+    }
+}
+
+.iphone-features-wrapper {
+    height: 500px;
+    display: block;
 }
