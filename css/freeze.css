@@ -68,13 +68,14 @@ header .navbar-default ul.navbar-nav li a {
 }
 header .navbar-default ul.navbar-nav li a:after {
   content: '';
-  width: 32px;
+  width: 42px;
   background: none;
   height: 4px;
   position: absolute;
   bottom: 2px;
+  margin-left: -51%;
   z-index: 99999;
-  left: 20px;
+  /* left: 20px; */
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
   -ms-border-radius: 5em;
@@ -95,7 +96,7 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default ul.navbar-nav li a:hover:after {
-  background: #ffffff;
+  background: #666666;
 }
 header .navbar-default ul.navbar-nav li a.getApp {
   -webkit-border-radius: 5em;
@@ -764,7 +765,7 @@ header {
   /* IE6-9 fallback on horizontal gradient */
 }
 header .navbar-default ul.navbar-nav li a {
-  color: #ffffff;
+  color: #666666;
   background: none;
 }
 header .navbar-default ul.navbar-nav li a.getApp {
@@ -811,7 +812,7 @@ header .navbar-default ul.navbar-nav li a.getApp:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default ul.navbar-nav li a:hover {
-  color: #ffffff;
+  color: #444;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;

@@ -1,10 +1,11 @@
 header {
     /*background: linear-gradient(-45deg, #66CDCC 0%, #336799 100%) repeat scroll 0% 0% transparent;*/
     background: linear-gradient(-45deg, rgba(205, 102, 102, 0.4) 0%, rgba(153, 51, 51, 0.4) 100%) repeat scroll 0% 0% transparent;
+    background: #f6f6f6;
 }
 
 .navbar-default .navbar-brand {
-	color: #fff;
+	color: #a00;
 	font-weight: bold;
 }
 
@@ -88,7 +89,7 @@ footer {
 }
 
 header .navbar-default.scrolled {
-    border-bottom: 3px solid rgba(185, 120, 120, 1);	
+    border-bottom: 3px solid rgba(185, 120, 120, 0.1);
 }
 
 @media screen and (max-width: 640px) {
@@ -205,20 +206,19 @@ header {
 }
 .app-hand-text {
 	position: absolute;
-    bottom: 40%;
-    right: 50%;
-    color: #fff;
-    font-weight: 100;
-    font-size: 32px;
-    margin-right: -250px;
-
-    bottom: 10%;
-    right: 30%;
+	bottom: 40%;
+	right: 50%;
+	color: #999999;
+	font-weight: 100;
+	font-size: 32px;
+	margin-right: -250px;
+	bottom: 10%;
+	right: 30%;
 }
 
 .app-hand-text strong {
     letter-spacing: 0px;
-    color: #ffffff;
+    color: #666666;
     font-size: 70px;
     font-weight: 300;
 }
@@ -250,7 +250,7 @@ header .navbar-default {
 
 /* gen */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #fff;
+    color: #a66;
 }
 
 /* small mobile */
@@ -355,7 +355,7 @@ header .navbar-default {
 }
 @media (min-width: 980px) {
     .iphone-ss {
-        left: 38%;
+        left: 28%;
     }
 }
 
