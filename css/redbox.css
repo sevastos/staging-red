@@ -371,6 +371,9 @@ form .input-group input.form-control.pull-left {
     height: 47px;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
 
 /* iphone features */
 .iphone-features {
