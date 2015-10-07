@@ -40,6 +40,7 @@ section#about .about-item:hover h3 {
 
 section#reviews {
     color: #fff;
+    font-size: 17px;
 }
 
 
@@ -212,14 +213,14 @@ header {
     margin-right: -250px;
 
     bottom: 10%;
-    right: 42%;
+    right: 30%;
 }
 
 .app-hand-text strong {
     letter-spacing: 0px;
     color: #ffffff;
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 70px;
+    font-weight: 300;
 }
 
 
@@ -289,7 +290,7 @@ header .navbar-default {
     }
 
     .app-hand-text {
-        right: 35%;
+        right: 40%;
         font-size: 25px;
         bottom: 30%;
         width: auto;
