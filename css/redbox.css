@@ -113,7 +113,7 @@ header .navbar-default.scrolled ul.navbar-nav li a:hover {
 */
 
 header .navbar-default.scrolled ul.navbar-nav li a {
-	color: #933;
+	color: #aa0000;
 }
 
 header .navbar-default ul.navbar-nav {
@@ -300,7 +300,7 @@ header .navbar-default {
 
 @media (min-width: 640px) {
     header .navbar-default.scrolled .navbar-brand {
-        color: #933;
+        color: #aa0000;
     }
 }
 
