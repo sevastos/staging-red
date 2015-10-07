@@ -372,6 +372,13 @@ form .input-group input.form-control.pull-left {
     height: 47px;
 }
 
+form .form-control {
+    color: #A29C9C;
+}
+form .form-control:focus {
+    color: #4A4A4A;
+}
+
 .overflow-hidden {
     overflow: hidden;
 }
