@@ -113,7 +113,7 @@ header .navbar-default.scrolled ul.navbar-nav li a:hover {
 */
 
 header .navbar-default.scrolled ul.navbar-nav li a {
-	color: #933;
+	color: #666;
 }
 
 header .navbar-default ul.navbar-nav {
@@ -350,7 +350,7 @@ header .navbar-default {
 }
 @media (min-width: 900px) {
     .iphone-ss {
-        left: 35%;
+        left: 30%;
     }
 }
 @media (min-width: 980px) {
@@ -412,4 +412,17 @@ form .form-control:focus {
 .iphone-features-wrapper {
     height: 500px;
     display: block;
+}
+
+@media (min-width: 1200px) {
+	.iphone-ss {
+		left: 30%;
+	}
+}
+
+
+@media (min-width: 1400px) {
+	.iphone-ss {
+		left: 35%;
+	}
 }
