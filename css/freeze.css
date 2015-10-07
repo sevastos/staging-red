@@ -636,8 +636,8 @@ form textarea.form-control {
     margin-top: 0px;
     margin-right: 0px;
     background: none;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    border: 2px solid #a66;
+    color: #a66;
     -webkit-border-radius: 5em;
     -moz-border-radius: 5em;
     -ms-border-radius: 5em;
@@ -678,8 +678,8 @@ form textarea.form-control {
     margin-top: 11px;
     margin-right: 20px;
     background: none;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    border: 2px solid #a66;
+    color: #a66;
     -webkit-border-radius: 5em;
     -moz-border-radius: 5em;
     -ms-border-radius: 5em;
@@ -1078,7 +1078,11 @@ form .form-control:focus {
   }
   header .navbar-default ul.navbar-nav li a {
     color: #ffffff;
-    border-bottom: 1px solid #CC4D4D;
+    border-bottom: 1px solid rgba(204, 77, 77, 0.17);
+  }
+  header .navbar-default ul.navbar-nav li:last-child a {
+    color: #ffffff;
+    border-bottom: none;
   }
   header .navbar-default ul.navbar-nav li a.getApp {
     color: #ffffff;
@@ -1090,7 +1094,7 @@ form .form-control:focus {
     color: #cd6666;
   }
   header .navbar-default .navbar-collapse {
-    background: #933;
+    background: rgba(255, 255, 255, 0.14);
   }
   header .navbar-default.scrolled {
     background: #933;
@@ -1099,7 +1103,7 @@ form .form-control:focus {
     color: #ffffff;
   }
   header .navbar-default.scrolled ul.navbar-nav li a:hover {
-    color: #cd6666;
+    color: #aa0000;
   }
 }
 .pre-loader {
