@@ -211,7 +211,9 @@ section#about .about-item i.fa {
   width: 104px;
 }
 section#features .media > .pull-right {
-  margin-left: 20px;
+  /* margin-right: 20px; */
+  /* float: left !important; */
+  /* margin-left: 0; */
 }
 section#features .media i.fa {
   -webkit-border-radius: 50%;
@@ -240,6 +242,9 @@ section#features .media.media-left .media-body {
 }
 section#features .media.feature {
   margin-top: 25px;
+  /* text-align: left; */
+  /* width: 330px; */
+  /* margin: 20px auto; */
 }
 section#features .media.feature:first-child {
   margin-top: 0;
@@ -849,7 +854,7 @@ section#about .about-item:hover h3 {
   color: #cd6666;
 }
 section#features {
-  background: #f6f6f6;
+  background: #fff;
 }
 section#features header h1:after {
   background: #cd6666;
