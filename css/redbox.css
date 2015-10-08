@@ -136,7 +136,9 @@ section#support {
 
 section#support .media {
     margin: 0 0 0 30px;
+    display: inline-block;
 }
+
 
 section#support .media a {
     border: 2px solid;
@@ -272,18 +274,15 @@ header {
 }
 .app-hand-text {
 	position: absolute;
-	bottom: 40%;
-	right: 50%;
 	color: #999999;
 	font-weight: 500;
 	font-size: 32px;
-	margin-right: -250px;
-	bottom: 10%;
-	right: 30%;
+	margin-left: 24%;
+	margin-top: 60px;
 }
 
 .app-hand-text strong {
-    letter-spacing: -7px;
+    letter-spacing: -6px;
     color: #666666;
     font-size: 100px;
     font-weight: 500;
@@ -329,18 +328,36 @@ header .navbar-default {
     }
     .app-hand-text {
         font-size: 0.85em;
-        margin-right: -250px;
-        bottom: 2%;
-        right: 0%;
         width: 90%;
-        background-color: #c05858;/* rgba(125, 40, 40, 0.83) */
+        background-color: rgba(192, 88, 88, 0.9);/* rgba(125, 40, 40, 0.83) */
         padding: 0 0 1em 2em;
-        margin-right: 0;
         font-weight: bold;
         color: #fff;
+        /* bottom: 0px; */
+        /* left: 0px; */
+        /* position: absolute; */
+        /* width: 300px !important; */
+        /* position: relative; */
+        margin: 0;
+        margin-top: 470px;
+        height: 170px;
     }
     .app-hand-text strong {
     	color: #fff;
+    }
+    .intro-sub {
+    	font-size: 1.3em;
+    	display: none;
+    }
+    .intro-short {
+    	font-size: 1.3em;
+    	font-weight: 500;
+    	padding: 0;
+    	margin: 0;
+    	color: #fff;
+    	width: 83%;
+    	margin-top: -13px;
+    	padding-right: 8px;
     }
 }
 
@@ -361,9 +378,7 @@ header .navbar-default {
     }
 
     .app-hand-text {
-        right: 30%;
         font-size: 35px;
-        /*bottom: 30%;*/
         width: auto;
     }
 }
@@ -385,9 +400,25 @@ header .navbar-default {
     .hidden-xs.handapp {
         bottom: 0px;
     }
+
+    .app-hand-text {
+        font-size: 35px;
+        width: auto;
+    }
+
+	.intro-short {
+		width: 600px;
+		font-size: 35px;
+	}
+
 }
 
-
+@media (max-width: 990px) and (min-width: 768px) {
+	.intro-short {
+		width: calc(100vw - 460px);
+		font-size: 29px;
+	}
+}
 
 
 /* iphone app screenshot */
@@ -421,12 +452,12 @@ header .navbar-default {
 }
 @media (min-width: 900px) {
     .iphone-ss {
-        left: 30%;
+        left: 28%;
     }
 }
 @media (min-width: 980px) {
     .iphone-ss {
-        left: 28%;
+        left: 22%;
     }
 }
 
@@ -441,8 +472,13 @@ header .navbar-default {
 form .input-group input.form-control.pull-left {
     height: 54px;
     font-size: 16px;
-    width: 450px;
+    max-width: 320px;
+    min-width: 280px;
+    /* margin-right: -133px; */
+    /* padding-right: 135px; */
+    width: auto;
     display: inline-block;
+    /* margin-right: 40px; */
 }
 
 form .form-control {
@@ -517,13 +553,27 @@ form .form-control:focus {
 
 @media (min-width: 1200px) {
 	.iphone-ss {
-		left: 30%;
+		left: 28%;
 	}
 }
 
 
 @media (min-width: 1400px) {
 	.iphone-ss {
-		left: 35%;
+		left: 31%;
+	}
+}
+
+
+@media (max-width: 960px) {
+	section#support .media {
+		width: 100%;
+		float: none !important;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 40px;
+	}
+	.email-form.input-group {
+		width: 420px;
 	}
 }
