@@ -1082,11 +1082,12 @@ form .form-control:focus {
     background: none;
   }
   header .navbar-default ul.navbar-nav li a {
-    color: #ffffff;
+    color: #666666;
+    background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgba(204, 77, 77, 0.17);
   }
   header .navbar-default ul.navbar-nav li:last-child a {
-    color: #ffffff;
+    color: #666666;
     border-bottom: none;
   }
   header .navbar-default ul.navbar-nav li a.getApp {
