@@ -665,6 +665,11 @@ form .form-control:focus {
         -o-border-radius: 5em;
         border-radius: 5em;
     }
+
+	header .navbar-default.scrolled .navbar-toggle {
+    	margin-top: 8px;
+	}
+
 }
 
 @media screen and (min-width: 640px) and (max-width: 768px) {
