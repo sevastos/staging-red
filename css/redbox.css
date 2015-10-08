@@ -41,12 +41,18 @@ section#about .about-item:hover h3 {
 
 section#reviews {
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 
 section#reviews h3 {
     color: #fff;
+}
+
+section#reviews img {
+    display: block;
+    width: 400px;
+    margin: 0 auto 20px;
 }
 
 section .section-heading .divider:after {
@@ -80,9 +86,32 @@ section#demo {
     background-color: #fff;
 }
 
+.review p{
+    font-size: 17px;
+}
+
+.padding {
+    padding: 0 10px;
+}
+
 section#support {
     background-color: #f6f6f6;
 }
+
+section#support .media {
+    margin: 0 0 0 30px;
+}
+
+section#support .media a {
+    border: 2px solid;
+    padding: 0 20px 0 0;
+}
+
+section#support .media i.fa {
+    margin: -1px;
+    vertical-align: sub;
+}
+
 
 footer {
     background: linear-gradient(-45deg, rgba(110, 11, 11, 1) 0%, rgba(249, 148, 148, 1) 100%) repeat scroll 0% 0% transparent;
@@ -365,17 +394,19 @@ header .navbar-default {
     }
 }
 
-
-
 .icon-heading {
-    font-size: 26px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 20px;
     color: #cd6666;
-    margin-left: 8px;
+    margin-left: 10px;
+    vertical-align: text-bottom;
 }
 
 form .input-group input.form-control.pull-left {
-    height: 47px;
+    height: 54px;
+    font-size: 16px;
+    width: 450px;
+    display: inline-block;
 }
 
 form .form-control {
@@ -383,6 +414,24 @@ form .form-control {
 }
 form .form-control:focus {
     color: #4A4A4A;
+}
+
+.input-group-btn {
+    vertical-align: baseline;
+    width:inherit;
+}
+
+.input-group-btn button {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.btn {
+    vertical-align: inherit;
+}
+
+.btn.btn-lg {
+    padding: 13px 25px 14px;
 }
 
 .overflow-hidden {
