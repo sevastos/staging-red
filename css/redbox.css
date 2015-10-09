@@ -133,6 +133,18 @@ section#demo {
     color: #999999;
 }
 
+.vzpaa {
+    width: 380px;
+    font-size: 12px;
+    margin-left: 150px;
+    margin-top: 17px;
+    opacity: 0.7;
+}
+
+.vzpaa img {
+    width: 55px;
+}
+
 section#support {
     background-color: #f6f6f6;
 }
@@ -259,12 +271,6 @@ header {
 	    margin-left: -590px;
 	}
 }
-
-
-
-
-
-
 
 
 
