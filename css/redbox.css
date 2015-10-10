@@ -683,6 +683,8 @@ form .form-control:focus {
     }
 }
 
+/* EXPANDED FEATURES */
+
 .feature-expand.media.feature {
     position: relative;
 }
@@ -692,12 +694,27 @@ form .form-control:focus {
 .feature-expand .media-expand.media-body {
     opacity: 0;
     position: absolute;
-    margin-right: 100px;
+    margin-left: 90px;
     top: 5px;
 }
+.feature-expand.media-left .media-expand.media-body {
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.feature-expand.media.feature .pull-left:hover + .media-body,
 .feature-expand.media.feature .pull-right:hover + .media-body {
     opacity: 0;
 }
+.feature-expand.media.feature .pull-left:hover + .media-body + .media-expand,
 .feature-expand.media.feature .pull-right:hover + .media-body + .media-expand {
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .feature-expand .media-expand.media-body,
+    .feature-expand.media-left .media-expand.media-body {
+        margin-right: 0;
+        margin-left: 97px;
+    }
 }
