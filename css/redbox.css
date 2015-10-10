@@ -689,7 +689,7 @@ form .form-control:focus {
     position: relative;
 }
 .feature-expand.media.feature .media-body {
-    transition: all 0.3s;
+    transition: all 0.4s;
 } 
 .feature-expand .media-expand.media-body {
     opacity: 0;
@@ -702,10 +702,14 @@ form .form-control:focus {
     margin-right: 100px;
 }
 
+.feature-expand.media.feature .pull-left:focus + .media-body,
+.feature-expand.media.feature .pull-right:focus + .media-body,
 .feature-expand.media.feature .pull-left:hover + .media-body,
 .feature-expand.media.feature .pull-right:hover + .media-body {
     opacity: 0;
 }
+.feature-expand.media.feature .pull-left:focus + .media-body + .media-expand,
+.feature-expand.media.feature .pull-right:focus + .media-body + .media-expand,
 .feature-expand.media.feature .pull-left:hover + .media-body + .media-expand,
 .feature-expand.media.feature .pull-right:hover + .media-body + .media-expand {
     opacity: 1;
