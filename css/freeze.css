@@ -214,6 +214,7 @@ section#features .media > .pull-right {
   /* margin-right: 20px; */
   /* float: left !important; */
   /* margin-left: 0; */
+  display: block;
 }
 section#features .media i.fa {
   -webkit-border-radius: 50%;
