@@ -141,8 +141,22 @@ section#demo {
     opacity: 0.7;
 }
 
+
 .vzpaa img {
     width: 55px;
+}
+
+.vzpaa-link {
+    color: #666666;
+}
+
+.vzpaa-link:hover, .vzpaa-link:focus, .vzpaa-link:active {
+    text-decoration: none;
+    color: #666666;
+}
+
+.vzpaa-link:hover .vzpaa {
+    opacity: 1;
 }
 
 section#support {
