@@ -3,7 +3,9 @@ header {
     background: linear-gradient(-45deg, rgba(205, 102, 102, 0.4) 0%, rgba(153, 51, 51, 0.4) 100%) repeat scroll 0% 0% transparent;
     background: #f6f6f6;
 }
-
+.pre-loader {
+    opacity: 0;
+}
 .navbar-default .navbar-brand {
 	color: #a00;
 	font-weight: bold;
@@ -58,7 +60,8 @@ section#reviews h3 {
 
 section#reviews img {
     display: block;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     margin: 0 auto 20px;
 }
 
@@ -291,6 +294,7 @@ header {
 .app-hand-slide-new {
 	position: relative;
 	height: 100vh;
+	/* padding-bottom: 100px; */
 	max-height: 800px;
 }
 .hidden-xs.handapp {
@@ -360,33 +364,80 @@ header .navbar-default {
         color: #fff;
         /* bottom: 0px; */
         /* left: 0px; */
-        /* position: absolute; */
+        position: absolute;
         /* width: 300px !important; */
         display: block;
         /* position: relative; */
         margin: 0;
-        margin-top: 470px;
+        margin-top: 476px;
         height: 170px;
     }
     .app-hand-text strong {
     	color: #fff;
+    	font-size: 24px;
+    	display: block;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	letter-spacing: -2px;
+    	margin-left: 3px;
     }
     .intro-sub {
     	font-size: 1.3em;
     	display: none;
     }
     .intro-short {
-    	font-size: 1.3em;
+    	font-size: 0.5em;
     	font-weight: 500;
     	padding: 0;
     	margin: 0;
     	color: #fff;
     	width: 83%;
     	margin-top: -13px;
+    	z-index: 500;
     	padding-right: 8px;
+    	font-size: 15px;
     }
 }
 
+@media (max-height: 695px) {
+    .app-hand-text {
+        margin-top: 396px;
+    }
+}
+
+@media (max-height: 627px) {
+    .app-hand-text {
+        margin-top: 380px;
+    }
+}
+
+@media (max-height: 569px) and (max-width: 321px) {
+    .app-hand-text {
+        margin-top: 310px;
+        padding: 0 0 1em 1.25em;
+    }
+    .app-hand-text strong {
+    	font-size: 36px;
+    	letter-spacing: -2px;
+    }
+    .app-hand-text .intro-short {
+    	font-size: 16px;
+    }
+}
+
+@media (max-height: 569px) and (max-width: 360px) {
+    .app-hand-text {
+        margin-top: 310px;
+        padding: 0 0 1em 1.25em;
+    }
+    .app-hand-text strong {
+    	font-size: 36px;
+    	letter-spacing: -2px;
+    }
+    .app-hand-text .intro-short {
+    	font-size: 16px;
+    }
+}
 
 @media (min-width: 480px) {
     .visible-xs.handapp {
@@ -441,7 +492,7 @@ header .navbar-default {
 
 @media (max-width: 990px) and (min-width: 768px) {
 	.intro-short {
-		width: calc(100vw - 460px);
+		width: calc(100vw - 470px);
 		font-size: 29px;
 	}
 }
@@ -558,8 +609,8 @@ form .form-control:focus {
 }
 
 @media (max-width: 1080px) {
-	.app-hand-text strong {
-		font-size: 60px;
+	.app-hand-text.sp-effect5.active.animated.fadeInUp {
+		font-size: 35px;
 	}
 	.app-hand-text {
 		max-width: 380px;
@@ -609,17 +660,27 @@ form .form-control:focus {
     }
     section#features .media.media-left .media-body {
         text-align: left;
+        margin-left: 97px;
     }
     .iphone-features-col + div {
         margin-top: 25px;
     }
     section#features .media.feature {
         text-align: left;
-        width: 330px;
+        max-width: 330px;
         margin: 20px auto;
     }
 }
-
+@media (max-width: 480px) {
+	section#features .media.media-left > .pull-right {
+		margin-right: 10px;
+	}
+	section#features .media i.fa {
+		/* font-size: 10px; */
+		/* padding: 10px; */
+		/* width: 2em; */
+	}
+}
 @media (max-width: 960px) {
 	section#support .media {
 		width: 100%;
@@ -660,6 +721,13 @@ form .form-control:focus {
 	}
 
 }
+
+@media (max-width: 374px) {
+	.email-form.input-group {
+		margin-left: -13px;
+	}
+}
+
 .email-form {
     margin: 0 auto;
     text-align: center;
@@ -671,7 +739,7 @@ form .form-control:focus {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 995px) {
     header .navbar-default .navbar-toggle {
         margin-top: 0px;
         margin-right: 0px;
@@ -691,7 +759,7 @@ form .form-control:focus {
 
 }
 
-@media screen and (min-width: 640px) and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 640px) {
     header .navbar-default .navbar-toggle {
         margin-right: 20px;
     }
@@ -708,12 +776,12 @@ form .form-control:focus {
 .feature-expand .media-expand.media-body {
     opacity: 0;
     position: absolute;
-    margin-left: 90px;
+    margin-left: 75px;
     top: 5px;
 }
 .feature-expand.media-left .media-expand.media-body {
     margin-left: 0;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .feature-expand.media.feature .pull-left:focus + .media-body,
@@ -735,4 +803,19 @@ form .form-control:focus {
         margin-right: 0;
         margin-left: 97px;
     }
+}
+
+
+@media (max-width: 994px) {
+	.navbar-default .navbar-collapse.collapse {
+		background: rgba(255, 255, 255, 0.8);
+		-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	}
+}
+
+.navbar-default.scrolled .navbar-collapse.collapse {
+    background: transparent;
+    box-shadow: none;
 }
