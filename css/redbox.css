@@ -28,17 +28,21 @@ header .navbar-default.scrolled ul.navbar-nav li a {
     color: rgba(153, 51, 51, 1);
 }
 
-section#about .about-item:hover i.fa {
+section.slide-group .about-item:hover i.fa {
     background: none repeat scroll 0% 0% #cd6666;
 }
 
-section#about .about-item i.fa {
+section.slide-group .about-item i.fa {
     border: 2px solid #cd6666;
     color: #cd6666;
 }
 
-section#about .about-item:hover h3 {
+section.slide-group .about-item:hover h3 {
     color: #cd6666;
+}
+
+section.slide-group .about-item i.fa {
+    padding: 32px;
 }
 
 .about-item h3 {
@@ -112,9 +116,7 @@ section#features .media.active i.fa {
     background: none repeat scroll 0% 0% #cd6666;
 }
 
-section#about .about-item i.fa {
-	padding: 32px;
-}
+
 
 section#demo {
     background-color: #fff;
@@ -818,4 +820,8 @@ form .form-control:focus {
 .navbar-default.scrolled .navbar-collapse.collapse {
     background: transparent;
     box-shadow: none;
+}
+
+section#use {
+    background: #f6f6f6;
 }

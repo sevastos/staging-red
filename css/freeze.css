@@ -187,16 +187,16 @@ header .navbar-default.scrolled ul.navbar-nav {
 .section-heading.inverse .divider:after {
   background: #ffffff;
 }
-section#about {
+section.slide-group { /* #about */
   position: relative;
 }
-section#about .about-item {
+section.slide-group .about-item { /* #about */
   text-align: center;
   font-size: 17px;
   line-height: 25px;
   color: #999999;
 }
-section#about .about-item i.fa {
+section.slide-group .about-item i.fa { /* #about */
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -843,15 +843,15 @@ header .navbar-default.scrolled .navbar-brand {
 section .section-heading .divider:after {
   background: #cd6666;
 }
-section#about .about-item i.fa {
+section.slide-group .about-item i.fa { /* #about */
   border: 2px solid #cd6666;
   color: #cd6666;
 }
-section#about .about-item:hover i.fa {
+section.slide-group .about-item:hover i.fa { /* #about */
   color: #ffffff;
   background: #cd6666;
 }
-section#about .about-item:hover h3 {
+section.slide-group .about-item:hover h3 { /* #about */
   color: #cd6666;
 }
 section#features {
